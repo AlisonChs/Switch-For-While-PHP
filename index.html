@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> PHP | Exercícios </title>
+
+    <!-- Metas para motor de busca do google -->
+
+    <meta name="title" content="PHP | Exercícios">
+    <meta name="description" content="Este site é usado para exercícios de PHP.">
+    <meta name="keywords" content="php, while, for, switch">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="Portuguese">
+    <meta name="author" content="Alison Christian">
+    <meta charset=UTF-8>
+
+    <!-- Font awesome (Icons) -->
+
+    <script src="https://kit.fontawesome.com/dde34b9cbd.js" crossorigin="anonymous"></script>
+
+    <!-- CSS E JS para funcionamento do bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- Estilização básica da página -->
+    <style>
+
+            #container, body {
+                margin: 0 0 0 0;
+                color: white;
+                background-color: #1c1c1c;
+                width: 100%;
+            }
+
+            #content {
+                width: 100%;
+                text-align: center;
+                margin-top: 10%;
+            }
+
+            form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+
+            form section {
+                display: flex;
+                flex-direction: column;
+            }
+
+    </style>
+
+    <div id=container>
+
+        <section id=content>
+
+        <!-- Formulário (toda a página sem contar o resultado) -->
+
+            <form style="margin-top: 5%">
+
+                <section class="title">
+
+                    <h1> Exercícios propostos </h1>
+                            
+                    <a data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="description" href="#description"><span class="badge bg-dark">DESCRIÇÃO</span></a>
+                    
+                    <div style="display: flex; align-items: center; justify-content: center;">
+                        <div class="collapse dark" id="description" style="width:40%; margin-top: 5%;">
+                            <div class="card card-body dark">
+                                <p> O objetivo desta página é indexar todos os caminhos de busca <br>
+                                    para os exercícios propostos pelo professor.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <span style="height: 15rem;margin-left: 5%; margin-right: 5%;border-left:1px solid;"></span>
+
+                <section class="form">
+
+                    <h1> Escolha. </h1> <br>
+
+                    O sistema irá lhe mostrar todas as opções.
+
+                    <br> <br>
+
+                    <div class="btn-group" role="group">
+                        <a href="while/index.php"><button type="button" class="btn btn-dark">While PHP</button></a>
+                        <a href="for/index.php"><button type="button" class="btn btn-dark">For PHP</button></a>
+                        <a href="switch/index.php"><button type="button" class="btn btn-dark">Switch PHP</button></a>
+                    </div>
+
+                    <style>
+                        .btn-group {margin-bottom: 5%;}
+                        .btn-group button {margin-left: 10%;}
+                        .dark {color: #fff;background-color: #212529;border-color: #fff!important;}
+                    </style>
+
+                </section>
+
+            </form>
+
+            <hr style="color: white; width: 100%; margin-top: 7%;" />
+
+            <a target="_blank" href="//github.com/alisonchs"><button type="button" class="btn btn-warning"><b>Ver código-fonte completo <hr><p> </p></p><i class="fab fa-github" style='font-size:25px'></i></b></button></a>
+
+        </section>
+
+    </div>
+
+</body>
+
+</html>
